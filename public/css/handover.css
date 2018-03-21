@@ -1,0 +1,57 @@
+.hiddenUl {
+    margin-left: 10px;
+    border: 1px solid #18a689;
+    width: 650px;
+    position: absolute;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.hiddenUl li:hover{
+    background-color: #e5e6e7;
+}
+
+/*标题切换样式 --start*/
+.hand-title {
+    width: 100%;
+    height: 36px;
+    font-size: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.hand-title span {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.hand-title span .label_line {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 160px;
+    height: 4px;
+    background-color: #1ab394;
+}
+
+.hand-title span.title_active {
+    color: #1ab394;
+}
+
+.hand-title span:hover {
+    cursor: pointer;
+    color: #1bcbab;
+}
+
+/*标题切换样式 --end*/
+
+.dcAttr{
+    display: inline-block;
+}
+.groupAttr{
+    width:250px;
+}

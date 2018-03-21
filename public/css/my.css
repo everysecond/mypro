@@ -1,0 +1,51 @@
+.z-window-modal-cnt,.z-window-highlighted-cnt,.z-window-modal-cnt-noborder,.z-window-highlighted-cnt-noborder,.z-window-overlapped-cnt-noborder
+{
+	margin: 0;
+	padding: 0px;
+	background: white;
+	overflow: hidden;
+	zoom: 1;
+}
+.z-calendar div,.z-panel div,div.z-window-highlighted-tr,div.z-window-highlighted-br,div.z-window-highlighted-tl,div.z-window-highlighted-bl {
+	overflow: visible;
+}
+.a_qq_1{
+	background-image:url(/image/ico_qzone_16x16.png);
+	height:24px;
+	width:24px;
+	display:block;
+	float:left;
+}
+.a_qq_1:hover{
+	background-image:url(/image/03.jpg);
+}
+.a_qq_2{
+	background-image:url(/image/ico_qzone_16x16.png);
+	height:24px;
+	width:24px;
+	display:block;
+	float:left;
+}
+.a_qq_2:hover{
+	background-image:url(/image/04.jpg);
+}
+.a_weibo_1{
+	background-image:url(/image/ico_sina_16x16.png);
+	height:24px;
+	width:24px;
+	display:block;
+	float:left;
+}
+.a_weibo_1:hover{
+	background-image:url(/image/02.jpg);
+}
+.a_weibo_2{
+	background-image:url(/image/ico_sina_16x16.png);
+	height:24px;
+	width:24px;
+	display:block;
+	float:left;
+}
+.a_weibo_2:hover{
+	background-image:url(/image/01.jpg);
+}

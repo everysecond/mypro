@@ -1,0 +1,14 @@
+vendor/*
+.git
+.idea
+.env
+composer.lock
+storage/*
+.env
+.DS_Store
+_ide_helper.php
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
+/database/migrations
+/public/upload/*

@@ -1,0 +1,14 @@
+{
+  "total": 30,
+  "rows": [
+    {
+      "id": 0,
+      "name": "测试0",
+      "price": "¥0",
+      "column1": "c10",
+      "column2": "c20",
+      "column3": "c30",
+      "column4": "c40"
+    }
+  ]
+}

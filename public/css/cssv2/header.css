@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+@import url("global.css");
+/*@import url("../image/img/base.css");*/
+
+/*backstage_head*/
+body {
+
+    overflow-y: scroll;
+}
+
+#admin_head {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+#adminBox {
+    width: 100%;
+    /*padding:0 10px;!important*/
+    margin: 0 auto;
+    clear: both;
+    display: block;
+}
+
+body .z-window-embedded {
+    /*width:99%;*/
+    /*padding:0 10px;!important*/
+    margin: 0 auto;
+    clear: both;
+    display: block;
+}
+
+#admin_head #logo {
+    height: 46px;
+    float: left;
+    width: 590px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#admin_head #headLink {
+    float: right;
+    padding-top: 20px;
+    color: #353535;
+    line-height: 20px;
+    display: inline;
+    z-index: 2;
+    padding-right: 15px;
+}
+
+#admin_head #liveChatLink {
+    float: right;
+    padding-top: 25px;
+    padding-left: 20px;
+    margin-left: 0;
+    display: inline;
+    z-index: 6;
+    padding-right: 15px;
+}
+
+.adminMenu {
+    height: 28px;
+    width: 100%;
+}
+
+.adminMenu li {
+    float: left;
+    height: 28px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.adminMenu .hover {
+    background-image: url(../image/img/hover.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 10px;
+}
+
+.adminMenu .hover span {
+    background-image: url(../image/img/hover.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-right: 10px;
+    height: 28px;
+    display: block;
+    float: left;
+}
+
+.adminMenu .normal {
+    background-image: url(../image/img/normal.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 10px;
+    width: auto;
+}
+
+.adminMenu .normal span {
+    background-image: url(../image/img/normal.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-right: 10px;
+    height: 28px;
+    display: block;
+    float: left;
+}
+
+.ipt1 {
+    background: url("input.gif") no-repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A7A6AA;
+    margin-top: 3px;
+    padding: 2px;
+    height: 15px;
+}
+
+.editenTxt {
+    border: 0px solid #CCCCCC;
+    height: 300px;
+    margin-top: 3px;
+    width: 800px;
+}
+
+.popBtn {
+    background-image: url(../image/bg/pic24.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    height: 90px;
+    width: 10px;
+    position: absolute;
+    left: 1px;
+    top: 150px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.popBtn1 {
+    background-image: url(../image/bg/pic23.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    height: 90px;
+    width: 10px;
+    position: absolute;
+    left: 19%;
+    top: 150px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.tableleft {
+    display: none;
+}
+
+.tableleft1 {
+    float: left;
+    width: 19%;
+    display: block;
+    margin-top: 8px;
+    margin-right: 1%;
+}
+
+.tableleft1 td {
+    width: 100%;
+}
+
+.tableMain {
+    margin-top: 8px;
+    width: 98%;
+    position: relative;
+}
+
+.tableMain1 {
+    float: left;
+    width: 80%;
+    margin-top: 8px;
+    position: relative;
+}

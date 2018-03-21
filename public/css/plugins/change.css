@@ -1,0 +1,19 @@
+/*底部回复按钮样式*/
+.reply-status {
+    width: 70px;
+    height: 28px;
+    margin-left: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #19b492;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.reply-status:hover {
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #19b492;
+    background-color: #19b492;
+}

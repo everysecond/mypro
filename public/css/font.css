@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+  }
+html,body,div,h1,h2,h3,h4,p,td,tr,ul,ol,li,table,dl,dd,dt,img,form,a{
+	margin:0;
+	padding:0;
+}
+
+.formtable{ line-height: 24px}
+
+a{ text-decoration:none;cursor: pointer;}
+ol,ul,li { list-style-type: none;}
+fieldset,img{
+border: 0;
+} 
+input{
+	height:22px;
+	}
+body{
+	margin:0 auto;
+	font-family:"微软雅黑","宋体";
+	font-size:14px;
+	color:#333;
+	}
+/*字体位置*/
+.flright{
+	text-align:right;
+	}
+.flcenter{
+	text-align:center;
+	}
+.flleft{
+	text-align:left;
+	}
+/*浮动位置*/
+.fl{ float:left;}
+.fr{ float:right;}
+/*字体颜色*/
+.green{ color:#408b18;}
+.red{ color:#bd1515;}
+.red1{ color: #F00;}
+.write{ color:#FFF}
+.gray{ color:#333}
+.black{ color:#000}
+.blue1{ color:#0000ff}
+a .green:hover{ color:#408b18;}
+a .write{ color:#FFF}
+a .green1{color:#8aaf2e}
+/*绿-黑*/
+a.green2{color:#408b18;}
+a.green2:hover{ color:#333 }
+/*绿-澄*/
+a.green3{color:#408b18;}
+a.green3:hover{ color:#F60; }
+/*黑-澄*/
+a.black{ color:#000}
+a.black:hover{ color:#F60; }
+/*黑-黑*/
+a.black1{ color:#000}
+a.black1:hover{ color:#000; }
+/*灰-澄*/
+a.gray{ color:#333}
+a.gray:hover{ color:#F60; }
+/*白-灰*/
+a.write1{ color:#fff}
+a.write1:hover{ color:#999 }
+/*白-澄*/
+a.write2{ color:#fff}
+a.write2:hover{ color:#F96; }
+/*白-白*/
+a.write3{ color:#fff}
+a.write3:hover{ color:#fff }
+/*字体大小*/
+.f10{ font-size:10px;}
+.f12{ font-size:12px;}
+.f13{ font-size:13px;}
+.f14{ font-size:14px;}
+.f15{ font-size:15px;}
+.f16{ font-size:16px;}  
+.f17{ font-size:17px;} 
+.f18{ font-size:18px;} 
+.bold{font-weight:bold}
+/*边距*/
+.mar_bottom4{ margin-bottom:4px;}
+.mar_bottom5{ margin-bottom:5px;}
+.mar_bottom10{ margin-bottom:10px;}
+.mar_bottom17{ margin-bottom:17px;}
+.mar_right5{ margin-right:5px;}
+.mar_right6{ margin-right:6px;}
+.mar_right11{ margin-right:11px;}
+.mar_right54{ margin-right:54px;}
+.mar_right20{ margin-right:20px;}
+.mar_left20{ margin-left:20px;}
+.mar_left25{ margin-left:25px;}
+.mar_left35{ margin-left:35px;}
+.mar_left238{ margin-left:238px;}
+.mar_left338{ margin-left:338px;}
+.mar_top25{ margin-top:25px;}
+.mar_top15{ margin-top:15px;}
+.mar_top18{ margin-top:18px;}
+.mar_top6{ margin-top:6px;}
+.mar_top9{ margin-top:9px;}
+.pad_left1{ padding-left:1px;}
+.pad_left5{ padding-left:5px;}
+.pad_left11{ padding-left:11px;}
+.pad_left14{ padding-left:14px;}
+.pad_left17{ padding-left:17px;}
+.pad_left25{ padding-left:25px;}
+/*行高*/
+.height20{ line-height:20px;}
+.height25{ line-height:25px;}
+.height26{ line-height:26px;}
+.height30{ line-height:30px;}
+.height35{ line-height:35px;}
+.height40{ line-height:40px;}
+.height50{ line-height:50px;}
+.height60{ line-height:60px;}
+/*高度*/
+.top10{ height:10px;}
+.top20{ height:20px;}
+.top25{ height:25px;}
+.top35{ height:35px;}
+.top5{ height:5px;}
+.top72{ height:72px;}
+.top59{ height:59px;}
+/*显示*/
+.dis{ display:block}
+.undis{ display:none;}
+/*背景色*/
+.bgf6{ background:#f6f6f6;}
+.bggreen{ background:#408a19;}
+/* 用于网上支付弹出的关闭页面 */
+.btnsale{
+	background-image:url(../image/icon/icon_c.gif);
+	background-repeat:no-repeat;
+	border:0 none;
+	cursor:pointer;
+	height:14px;
+	display:block;
+	width:13px;
+	float:right;
+	margin-right:4px;
+	}
+.coolbg {
+border: none;
+border-right: 1px solid #ACACAC;
+border-bottom: 1px solid #ACACAC;
+background-color: #F1F8B4;
+padding: 2px;
+background: url(../image/allbtbg2.gif) #EFF7D0;
+}

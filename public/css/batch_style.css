@@ -1,0 +1,23 @@
+.batchRelate {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    margin-left: 15px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.batchRelate:hover {
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #19b492;
+    background-color: #19b492;
+}
+
+.batch {
+    margin-top: -35px;
+}

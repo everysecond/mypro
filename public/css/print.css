@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.print_main{
+	width:720px;
+	margin:0 auto;
+}
+.print_title{
+	width:70px;
+	height:25px;
+	line-height:25px;
+	background:#ff6d00;
+	color:#FFF;
+	font-size:14px;
+	padding-left:10px;
+	margin-top:10px;
+	margin-left:1px;
+}
+.quotes_title{
+	width:80px;
+	height:25px;
+	line-height:25px;
+	background:#ff6d00;
+	color:#FFF;
+	font-size:14px;
+	padding-left:10px;
+	margin-top:10px;
+	margin-left:1px;
+}
+.print_content{
+	border:1px solid #CCC;
+	margin-top:1px;
+	padding-left:10px;
+	color:#505050;
+}
+table tr{
+	height:22px;
+	line-height:20px;
+}
+table tr td{
+	height:22px;
+	line-height:12px;
+}
+.suojin{
+	text-indent:0.5em;
+}
+.td1{
+	border-bottom:1px solid  #CCC;
+	border-right:1px solid  #CCC;
+}
+.td2{
+	border-bottom:1px solid  #CCC;
+}
+.td3{
+	border-right:1px solid  #CCC;
+}
+.order_btn{ background:url(../image/btn/btn.jpg);width:100px;height:26px; text-align:center; line-height:26px; font-size:12px; color:#4a7e15; cursor:pointer}

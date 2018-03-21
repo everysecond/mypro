@@ -1,0 +1,637 @@
+/*css reset*/
+html, body, div, p, button, h3, tbody, tfoot, thead, tr, th, td, ul, li, input {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    color: #666666;
+    font: 14px/2 "微软雅黑", "Microsoft YaHei", arial, verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.hide {
+    display: none !important;
+}
+.min-w75 {
+    min-width: 75px;
+}
+
+.min-w85 {
+    min-width: 85px;
+}
+
+.min-w120 {
+    min-width: 120px;
+}
+
+.w12 {
+    width: 12px;
+}
+
+/*placeholder默认颜色值*/
+::-moz-placeholder {
+    color: #369;
+}
+
+::-webkit-input-placeholder {
+    color: #369;
+}
+
+:-ms-input-placeholder {
+    color: #369;
+}
+
+/* 清除浮动 */
+.clearfix {
+    z-index: -1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* 单行省略显示文字 禁止换行 */
+.single-line {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*提示弹框样式 --start*/
+.tool-tips {
+    display: none;
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    z-index: 88;
+    margin-top: 15px;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.tool-tips.table-tool-tips {
+    top: -42px;
+}
+
+.tool-tips .tool-title {
+    position: relative;
+    white-space: nowrap;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 3px 5px;
+    font-size: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+}
+
+.tool-tips .tool-arrow {
+    position: absolute;
+    top: 20px;
+    left: 48%;
+    left: calc(50% - 7px);
+    z-index: 88;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/arrow.png");
+    -webkit-transform: rotate(180deg) translate(50%, 0);
+    -moz-transform: rotate(180deg) translate(50%, 0);
+    -ms-transform: rotate(180deg) translate(50%, 0);
+    -o-transform: rotate(180deg) translate(50%, 0);
+    transform: rotate(180deg) translate(50%, 0);
+}
+
+.tool-tips .tool-arrow.table-tool-arrow {
+    left: calc(50% - 2px);
+}
+
+/*提示弹框样式 --end*/
+
+/*模块顶部及背景样式*/
+.module-style {
+    display: inline-block;
+    border-top: 3px solid #e4e4e4;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+
+/*全局样式定义*/
+.job-list {
+    height: 100%;
+    min-width: 1000px;
+    background: #fafafa;
+    margin: 15px auto 0;
+    margin-top: 100px;
+}
+
+/* 优化0830 */
+/*工单列表顶部*/
+.job-list-top {
+    width: 100%;
+    height: 60px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+/*按钮样式*/
+.job-list-top .submit-btn {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #19b492;
+}
+
+/* 优化0830 */
+
+.job-list-top .submit-btn:hover {
+    cursor: pointer;
+    background-color: #1bcbab;
+}
+
+/* 优化0830 --start */
+.job-list-top .job-handle-wrap {
+    float: right;
+}
+
+.job-handle-wrap .job-handle {
+}
+
+.job-handle .handle-tips {
+    cursor: pointer;
+}
+
+.job-handle-wrap .job-handle-text {
+    margin-top: -5px;
+}
+
+.job-handle-wrap .job-handle-text > span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    color: #666;
+    text-align: center;
+}
+
+.job-handle-text .handle-text-orther {
+    width: 30px;
+    margin-right: 22px;
+    text-align: center;
+}
+
+.job-handle-text .handle-text-center {
+    width: 44px;
+    margin-right: 13px;
+    margin-left: -7px;
+}
+
+.job-handle .handle-tips {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    line-height: 40px;
+    margin-right: 8px;
+}
+
+/* 优化0830 --end */
+
+
+.icon-time {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/time.svg");
+}
+
+.handle-tips span {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.handle-tips span.tips-yellow {
+    border: 1px solid #fea162;
+    background-color: #fea162;
+}
+
+.handle-tips span.tips-red {
+    border: 1px solid #fd6262;
+    background-color: #fd6262;
+}
+
+.handle-tips span.tips-green {
+    border: 1px solid #19b492;
+    background-color: #19b492;
+}
+
+.handle-tips span.tips-huang {
+    border: 1px solid #FFDE3D;
+    background-color: #FFDE3D;
+}
+
+/*工单列表 modal*/
+.job-list-content {
+    width: 100%;
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*标题切换样式 --start*/
+.job-list-content .label-title {
+    width: 100%;
+    height: 36px;
+    font-size: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.label-title span {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.label-title span .label_line {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 160px;
+    height: 4px;
+    background-color: #1ab394;
+}
+
+.label-title span.title_active {
+    color: #1ab394;
+}
+
+.label-title span:hover {
+    cursor: pointer;
+    color: #1bcbab;
+}
+
+/*标题切换样式 --end*/
+
+.table-wrap {
+}
+
+/*通用表格样式*/
+.event-table {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.event-table tr {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.event-table tr a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.event-table tr a:hover {
+    background-color: #f4f4f4;
+}
+
+.event-table tr th, .event-table tr td {
+    padding-left: 15px;
+}
+
+.event-table thead tr {
+    background-color: #f9f9f9;
+}
+
+.event-table .icon-wrap {
+    font-size: 0;
+}
+
+.event-table i.table-icon-white {
+    display: inline-block;
+    margin-right: 3px;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.table-icon {
+    position: relative;
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.icon-alarm-yellow {
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url("../img/alarm-yellow.png");
+}
+
+.icon-alarm-huang {
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url("../img/alarm-yellow-light.png");
+}
+
+.icon-alarm-red {
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url("../img/alarm-red.png");
+}
+
+.icon-talk {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+    background-size: 22px 22px;
+    background-image: url("../img/talk.png");
+}
+
+.event-table i.table-icon.icon-dot {
+    width: 8px;
+    height: 8px;
+    background-size: 8px 8px;
+    background-image: url("../img/dot.png");
+}
+
+.icon-client-state {
+    display: inline-block;
+    margin-left: 3px;
+    vertical-align: sub;
+    width: 16px;
+    height: 14px;
+    background-image: url("../img/client-state.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icon-client-state.icon-vip {
+    background-position: 0px 0px;
+}
+
+.icon-client-state.icon-A {
+    background-position: -20px 0px;
+}
+
+.icon-client-state.icon-manage {
+    background-position: -42px 0px;
+}
+
+.icon-client-state.icon-three {
+    background-position: -64px 0px;
+}
+
+.event-table span.text_active {
+    color: #1ab394;
+}
+
+.event-table span.text_stress {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*通用表格样式 --end*/
+
+/* 清除浮动 */
+.clearfix {
+    z-index: -1;
+}
+
+/*工单列表table样式*/
+.job-list-table {
+}
+
+.job-list-table thead th, .job-list-table tbody td {
+    vertical-align: middle;
+    padding: 6px 10px;
+}
+
+.job-list-table .table-div {
+    line-height: 20px;
+}
+
+.job-list-table .job-title-td {
+    min-width: 340px;
+}
+
+.job-list-table .job-title {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.job-list-table .client-account {
+    min-width: 300px;
+}
+
+.job-list-table .checkbox {
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+/*底部样式*/
+.bottom-option {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.option-btn {
+    display: inline-block;
+    margin-top: -80px;
+    width: 90px;
+    height: 32px;
+    margin-left: 15px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.bottom-option .response-btn {
+    color: #19b492;
+}
+
+.bottom-option .option-btn:hover {
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #19b492;
+    background-color: #19b492;
+}
+
+.bottom-option .option-btn-wrap {
+    display: inline-block;
+}
+
+.option-btn {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    margin-left: 15px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.response-btn {
+    color: #19b492;
+}
+
+.option-btn:hover {
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #19b492;
+    background-color: #19b492;
+}
+
+.option-btn-wrap {
+    display: inline-block;
+}
+
+/*放置分页区域*/
+.bottom-option .option-paging {
+    display: inline-block;
+    float: right;
+}
+
+/*下拉筛选菜单 20160829 --start*/
+.select-wrap {
+    position: relative;
+}
+
+.select-wrap .current-select {
+    cursor: pointer;
+}
+
+.select-wrap .select-list {
+    display: none;
+    position: absolute;
+    z-index: 15;
+    top: 100%;
+    left: 10px;
+    padding: 8px 6px;
+    border-radius: 2px;
+    box-shadow: 0 0 6px #b1b2b4;
+    background-color: #FFF;
+    font-size: 12px;
+}
+
+.select-wrap i.select-icon {
+    display: inline-block;
+    margin-left: 3px;
+    width: 9px;
+    height: 9px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url("../img/arrow_down.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.select-list > li {
+    list-style: none;
+    display: block;
+    position: relative;
+    line-height: 28px;
+    padding: 0 12px;
+    color: #4B556A;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.select-list > li:hover {
+    color: #1ab394;
+    background-color: #f2f2f2;
+}
+
+.select-list .selected-color {
+    color: #1ab394;
+}
+
+/*下拉筛选菜单 --end*/
+
+.sel {
+    border: 0;
+    border: none;
+    outline: none;
+}
+
+.sel > li {
+    list-style: none;
+    display: block;
+    position: relative;
+    line-height: 28px;
+    padding: 0 12px;
+    color: #4B556A;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.sel > li:hover {
+    color: #1ab394;
+    background-color: #f2f2f2;
+}
